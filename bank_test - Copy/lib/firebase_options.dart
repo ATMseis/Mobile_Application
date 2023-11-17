@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB6ygmrX4FZ2wrrtuKdHq2or6b2WRt_tDs',
-    appId: '1:406831326249:android:02986a1d55e816c3b3a838',
-    messagingSenderId: '406831326249',
-    projectId: 'banktest-330c4',
-    storageBucket: 'banktest-330c4.appspot.com',
+    apiKey: 'AIzaSyA9UYCquIZ1UCnhYcPLTesvHgFEu8h5ra8',
+    appId: '1:59998127405:android:44a5d7400c6f703cf27fa4',
+    messagingSenderId: '59998127405',
+    projectId: 'atmseis-204d3',
+    storageBucket: 'atmseis-204d3.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDfUZ3woNHkZZdfHD1Ov4u9yQBOC9v0Jjg',
-    appId: '1:406831326249:ios:20a0f8c0f31d5800b3a838',
-    messagingSenderId: '406831326249',
-    projectId: 'banktest-330c4',
-    storageBucket: 'banktest-330c4.appspot.com',
+    apiKey: 'AIzaSyB3-nGy0w_vKJUo7klYpBw_jIE3-E8itMo',
+    appId: '1:59998127405:ios:1809ea04a2ef299bf27fa4',
+    messagingSenderId: '59998127405',
+    projectId: 'atmseis-204d3',
+    storageBucket: 'atmseis-204d3.appspot.com',
     iosBundleId: 'com.example.bankTest',
   );
 }

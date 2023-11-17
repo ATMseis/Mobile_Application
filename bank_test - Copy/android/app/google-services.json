@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "406831326249",
-    "project_id": "banktest-330c4",
-    "storage_bucket": "banktest-330c4.appspot.com"
+    "project_number": "59998127405",
+    "project_id": "atmseis-204d3",
+    "storage_bucket": "atmseis-204d3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:406831326249:android:02986a1d55e816c3b3a838",
+        "mobilesdk_app_id": "1:59998127405:android:44a5d7400c6f703cf27fa4",
         "android_client_info": {
           "package_name": "com.example.bank_test"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB6ygmrX4FZ2wrrtuKdHq2or6b2WRt_tDs"
+          "current_key": "AIzaSyA9UYCquIZ1UCnhYcPLTesvHgFEu8h5ra8"
         }
       ],
       "services": {
