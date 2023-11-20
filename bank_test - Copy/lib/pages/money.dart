@@ -1,4 +1,4 @@
-import 'package:bank_test/pages/helmet.dart';
+//import 'package:bank_test/pages/helmet.dart';
 import 'package:bank_test/pages/notification.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -187,7 +187,7 @@ class _MoneyPageState extends State<MoneyPage>{
                         child:GestureDetector(
                           // helmet1Ubr (7:43)
                           onTap: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => HelmetPage()));
+                              //Navigator.push(context, MaterialPageRoute(builder: (context) => HelmetPage()));
                             },
                           child: Align(
                             child: SizedBox(
