@@ -1,3 +1,4 @@
+import 'package:bank_test/pages/helmet.dart';
 import 'package:bank_test/pages/notification.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -160,7 +161,7 @@ class _MoneyPageState extends State<MoneyPage>{
                   SizedBox(
                     // autogroupn1oeDvp (DT2m6vd7rMyivYtDhTn1oe)
                     width: 115*fem,
-                    height: double.infinity,
+                    //height: double.infinity,
                     child: Stack(
                       children: [
                         Positioned(
@@ -181,18 +182,22 @@ class _MoneyPageState extends State<MoneyPage>{
                           ),
                         ),
                         Positioned(
+                          left: 10*fem,
+                          top: 0*fem,
+                        child:GestureDetector(
                           // helmet1Ubr (7:43)
-                          left: 0*fem,
-                          top: 4*fem,
+                          onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => HelmetPage()));
+                            },
                           child: Align(
                             child: SizedBox(
-                              width: 49*fem,
-                              height: 54*fem,
-                              child: TextButton(
+                              width: 60*fem,
+                              height: 60*fem,
+                              /* child: TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom (
                                   padding: EdgeInsets.zero,
-                                ),
+                                ), */
                                 child: Image.asset(
                                   'assets/page-1/images/helmet-1-ykc.png',
                                 ),
