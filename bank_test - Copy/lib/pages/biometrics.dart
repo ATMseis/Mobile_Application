@@ -8,22 +8,21 @@ class Scene extends StatelessWidget {
   Widget build(BuildContext context) {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
-   // double ffem = fem * 0.97;
+   
     return Scaffold(
      
       body: SingleChildScrollView(
         child: Container(
-        // biometricsepY (5:20)
         padding: EdgeInsets.fromLTRB(63*fem, 59*fem, 64*fem, 90*fem),
         width: double.infinity,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0xff224d8d),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // authenticationneedMix (7:26)
+             
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 80*fem),
               constraints: BoxConstraints (
                 maxWidth: 184*fem,
@@ -36,12 +35,12 @@ class Scene extends StatelessWidget {
                   fontSize: 24*fem,
                   fontWeight: FontWeight.w900,
                   height: 1.2125*fem/fem,
-                  color: Color(0xffffffff),
+                  color: const Color(0xffffffff),
                 ),
               ),
             ),
             Container(
-              // pleaseputyourthumbtothesensor3 (7:27)
+            
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 25*fem),
               constraints: BoxConstraints (
                 maxWidth: 233*fem,
@@ -54,28 +53,28 @@ class Scene extends StatelessWidget {
                   fontSize: 24*fem,
                   fontWeight: FontWeight.w500,
                   height: 1.2125*fem/fem,
-                  color: Color(0xffffffff),
+                  color: const Color(0xffffffff),
                 ),
               ),
             ),
             Container(
-              // autogroup5sgcutt (DT2k3YDjiAZceHDGKT5sGC)
+             
               margin: EdgeInsets.fromLTRB(17*fem, 0*fem, 16*fem, 36*fem),
               padding: EdgeInsets.fromLTRB(12*fem, 12*fem, 12*fem, 12*fem),
               width: double.infinity,
               decoration: BoxDecoration (
-                color: Color(0xffacc2fc),
+                color: const Color(0xffacc2fc),
                 borderRadius: BorderRadius.circular(100*fem),
               ),
               child: Center(
-                // ellipse1DPn (7:24)
+            
                 child: SizedBox(
                   width: double.infinity,
                   height: 150*fem,
                   child: Container(
                     decoration: BoxDecoration (
                       borderRadius: BorderRadius.circular(88*fem),
-                      image: DecorationImage (
+                      image: const DecorationImage (
                         image: AssetImage (
                           'assets/page-1/images/ellipse-1-bg.png',
                         ),
@@ -86,7 +85,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // verifiedvZ6 (7:28)
+       
               margin: EdgeInsets.fromLTRB(1*fem, 0*fem, 0*fem, 80*fem),
               child: Text(
                 'Verified',
@@ -96,17 +95,16 @@ class Scene extends StatelessWidget {
                   fontSize: 24*fem,
                   fontWeight: FontWeight.w500,
                   height: 1.2125*fem/fem,
-                  color: Color(0xffffffff),
+                  color: const Color(0xffffffff),
                 ),
               ),
             ),
             Container(
-              // autogroupu2pzqvx (DT2k7Y75LC6P86avdZu2Pz)
               margin: EdgeInsets.fromLTRB(50*fem, 0*fem, 50*fem, 0*fem),
               width: double.infinity,
               height: 30*fem,
               decoration: BoxDecoration (
-                color: Color(0xff9ddc4d),
+                color: const Color(0xff9ddc4d),
                 borderRadius: BorderRadius.circular(15*fem),
               ),
               child: Center(
@@ -119,7 +117,7 @@ class Scene extends StatelessWidget {
                       fontSize: 24*fem,
                       fontWeight: FontWeight.w400,
                       height: 1.2125*fem/fem,
-                      color: Color(0xff000000),
+                      color: const Color(0xff000000),
                     ),
                   ),
                 ),

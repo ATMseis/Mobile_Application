@@ -19,7 +19,6 @@ class _DetailsPageState extends State<DetailsPage>{
   Widget build(BuildContext context) {
     double baseWidth = 360.0124511719;
     double fem = MediaQuery.of(context).size.width / baseWidth;
-    //double ffem = fem * 0.97;
     return Scaffold(
       appBar: AppBar(title: const Text(
                       '  Notifications',
@@ -54,7 +53,6 @@ class _DetailsPageState extends State<DetailsPage>{
                     ),
       body: SingleChildScrollView(
       child: Container(
-        // detailsHAx (101:73)
         width: double.infinity,
         decoration:const BoxDecoration (
           color: Color(0xff234d8e),
@@ -63,14 +61,12 @@ class _DetailsPageState extends State<DetailsPage>{
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-                    // autogroup5oqr9ZA (DT2ta8Lxm1j9onHc8Q5oqr)
                     margin: EdgeInsets.fromLTRB(11*fem, 10*fem, 12.01*fem, 100*fem),
                     width: double.infinity,
                     height: 640*fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // detailsgJC (101:100)
                           left: 241*fem,
                           top: 62.5*fem,
                           child: Center(
@@ -86,7 +82,7 @@ class _DetailsPageState extends State<DetailsPage>{
                                     fontSize: 15*fem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.2125*fem/fem,
-                                    color: Color(0xff000000),
+                                    color: const Color(0xff000000),
                                   ),
                                 ),
                               ),
@@ -94,7 +90,6 @@ class _DetailsPageState extends State<DetailsPage>{
                           ),
                         ),
                         Positioned(
-                          // rectangle42yYC (101:107)
                           left: 0*fem,
                           top: 0*fem,
                           child: Align(
@@ -104,14 +99,13 @@ class _DetailsPageState extends State<DetailsPage>{
                               child: Container(
                                 decoration: BoxDecoration (
                                   borderRadius: BorderRadius.circular(15*fem),
-                                  color: Color(0xffc8f7cd),
+                                  color: const Color(0xffc8f7cd),
                                 ),
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // status306Mv (101:113)
                           left: 26*fem,
                           top: 284.5*fem,
                           child: Align(
@@ -125,14 +119,13 @@ class _DetailsPageState extends State<DetailsPage>{
                                   fontSize: 15*fem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.2125*fem/fem,
-                                  color: Color(0xff000000),
+                                  color: const Color(0xff000000),
                                 ),
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // currencynoteswarningbJg (101:110)
                           left: 16*fem,
                           top: 22*fem,
                           child: Align(
@@ -146,14 +139,13 @@ class _DetailsPageState extends State<DetailsPage>{
                                   fontSize: 20*fem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.2125*fem/fem,
-                                  color: Color(0xff000000),
+                                  color: const Color(0xff000000),
                                 ),
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // date20xxxxxxtime20xxxxxxu4U (101:111)
                           left: 25*fem,
                           top: 151.5*fem,
                           child: Align(
@@ -167,14 +159,13 @@ class _DetailsPageState extends State<DetailsPage>{
                                   fontSize: 16*fem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.2125*fem/fem,
-                                  color: Color(0xff000000),
+                                  color: const Color(0xff000000),
                                 ),
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // typeofcurrency500017W (101:112)
                           left: 26*fem,
                           top: 231.5*fem,
                           child: Align(
@@ -188,14 +179,13 @@ class _DetailsPageState extends State<DetailsPage>{
                                   fontSize: 15*fem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.2125*fem/fem,
-                                  color: Color(0xff000000),
+                                  color: const Color(0xff000000),
                                 ),
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // pleasefilltherelevantmoneybuck (101:114)
                           left: 25*fem,
                           top: 80.5*fem,
                           child: Align(
@@ -209,7 +199,7 @@ class _DetailsPageState extends State<DetailsPage>{
                                   fontSize: 15*fem,
                                   fontWeight: FontWeight.w400,
                                   height: 1.2125*fem/fem,
-                                  color: Color(0xfff60808),
+                                  color: const Color(0xfff60808),
                                 ),
                               ),
                             ),
