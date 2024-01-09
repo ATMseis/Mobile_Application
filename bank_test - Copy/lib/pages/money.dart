@@ -1,4 +1,4 @@
-//import 'package:bank_test/pages/helmet.dart';
+import 'package:bank_test/pages/helmet.dart';
 import 'package:bank_test/pages/notification.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +21,7 @@ class _MoneyPageState extends State<MoneyPage> {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 57, 122, 221),
         title: const Text(
           '  ATM seis',
           style: TextStyle(
@@ -40,9 +41,9 @@ class _MoneyPageState extends State<MoneyPage> {
             },
             child: Image.asset(
               'assets/page-1/images/-diQ.png',
-              height: 5.0,
+              height: 30.0,
               width: 35.0,
-              fit: BoxFit.cover,
+              fit: BoxFit.fill,
             ),
           ),
           IconButton(
@@ -60,6 +61,7 @@ class _MoneyPageState extends State<MoneyPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              // const SizedBox(height: 20),
               Container(
                 margin:
                     EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 11 * fem),
@@ -79,7 +81,7 @@ class _MoneyPageState extends State<MoneyPage> {
                     style: TextStyle(
                       fontSize: 20 * fem,
                       fontWeight: FontWeight.w400,
-                      height: 1.5 * fem / fem,
+                      height: 1.2 * fem,
                       color: const Color(0xffffffff),
                     ),
                   ),
@@ -121,7 +123,7 @@ class _MoneyPageState extends State<MoneyPage> {
                             ),
                           ),
                           Positioned(
-                            left: 2 * fem,
+                            left: 10 * fem,
                             top: 2 * fem,
                             child: Align(
                               child: SizedBox(
@@ -138,7 +140,7 @@ class _MoneyPageState extends State<MoneyPage> {
                             ),
                           ),
                           Positioned(
-                            left: 49 * fem,
+                            left: 60 * fem,
                             top: 8 * fem,
                             child: Align(
                               child: SizedBox(
@@ -180,7 +182,11 @@ class _MoneyPageState extends State<MoneyPage> {
                             top: 0 * fem,
                             child: GestureDetector(
                               onTap: () {
-                                //Navigator.push(context, MaterialPageRoute(builder: (context) => HelmetPage()));
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const HelmetPage()));
                               },
                               child: Align(
                                 child: SizedBox(
@@ -205,6 +211,7 @@ class _MoneyPageState extends State<MoneyPage> {
                 ),
               ),
               Container(
+                // notes
                 margin:
                     EdgeInsets.fromLTRB(0 * fem, 0 * fem, 175 * fem, 0 * fem),
                 child: Text(
@@ -219,14 +226,14 @@ class _MoneyPageState extends State<MoneyPage> {
               ),
               Container(
                 padding:
-                    EdgeInsets.fromLTRB(38 * fem, 15 * fem, 39 * fem, 74 * fem),
+                    EdgeInsets.fromLTRB(38 * fem, 10 * fem, 39 * fem, 74 * fem),
                 width: double.infinity,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       margin: EdgeInsets.fromLTRB(
-                          0 * fem, 0 * fem, 0 * fem, 61 * fem),
+                          0 * fem, 0 * fem, 0 * fem, 55 * fem),
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: const Color(0xffd9d9d9),
@@ -247,6 +254,7 @@ class _MoneyPageState extends State<MoneyPage> {
                       ),
                     ),
                     Container(
+                      // notes
                       margin: EdgeInsets.fromLTRB(
                           7 * fem, 0 * fem, 0 * fem, 12 * fem),
                       child: Text(
@@ -261,7 +269,7 @@ class _MoneyPageState extends State<MoneyPage> {
                     ),
                     Container(
                       margin: EdgeInsets.fromLTRB(
-                          0 * fem, 0 * fem, 0 * fem, 61 * fem),
+                          0 * fem, 0 * fem, 0 * fem, 55 * fem),
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: const Color(0xffd9d9d9),
@@ -282,6 +290,7 @@ class _MoneyPageState extends State<MoneyPage> {
                       ),
                     ),
                     Container(
+                      // notes
                       margin: EdgeInsets.fromLTRB(
                           0 * fem, 0 * fem, 0 * fem, 12 * fem),
                       child: Text(
@@ -296,7 +305,7 @@ class _MoneyPageState extends State<MoneyPage> {
                     ),
                     Container(
                       margin: EdgeInsets.fromLTRB(
-                          0 * fem, 0 * fem, 0 * fem, 61 * fem),
+                          0 * fem, 0 * fem, 0 * fem, 55 * fem),
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: const Color(0xffd9d9d9),
